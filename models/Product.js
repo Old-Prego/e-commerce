@@ -1,6 +1,5 @@
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-const { databaseVersion } = require('../../../../week13-ORM/01-Activities/23-Ins_One-to-Many/config/connection');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
 
@@ -29,7 +28,7 @@ Product.init(
       },
     },
     stock: {
-      type: dataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -37,7 +36,7 @@ Product.init(
       },
     },
     category_id: {
-      type: dataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: 'category',
         key: 'id',
