@@ -13,6 +13,7 @@
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Questions](#questions)
+  - [Walkthrough Video](#walkthrough-video)
   - [Github](#github)
 
 ## Description  
@@ -35,6 +36,9 @@ Add, remove, and get data to find issues
 
 ## Questions
 If you have any further questions, please reach out to me at lukejperrine@gmail.com
+
+## Walkthrough Video
+[Link to the walkthrough video](https://drive.google.com/file/d/15L17Dp1bpxIRHovCLkxUtL0OC6abzQW0/view)
 
 ## Github
 [Old-Prego](https://github.com/Old-Prego)
